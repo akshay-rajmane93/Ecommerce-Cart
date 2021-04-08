@@ -632,6 +632,7 @@ margin-top: .5em;
   .cart{
     position: static;
    }
+   
   
 }
 
@@ -647,8 +648,10 @@ margin-top: .5em;
    }
    .cart2_cards{
     width: 40%;
-    height: auto;
+    height: 45vh;
     margin: 2em;
+    box-shadow: 0 3px 3px gray;
+   
    
   }
 }
