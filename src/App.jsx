@@ -49,9 +49,6 @@ function App() {
     <BrowserRouter>
     <Navbar cartitems={cart.length}/>
     <Switch>
-    
-    
-
       <Route exact path="/" ><Product onAdd={onAdd} onRemove={onRemove} cart={cart} data={data}/></Route>
       <Route exact path="/cart" ><Cart2 cart={cart}  onAdds={onAdd} onRemoves={onRemove}/></Route>
       <Redirect to="/"/>

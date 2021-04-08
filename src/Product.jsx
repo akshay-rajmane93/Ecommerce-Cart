@@ -7,10 +7,7 @@ function Product(props) {
    
    
   return (<>
-  
-    
     <div className="app_div">
-    
     <div className="for_products">
     {props.data.map((val)=>{
           return(
