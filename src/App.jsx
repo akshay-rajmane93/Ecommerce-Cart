@@ -1,10 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import Navbar from './Navbar';
-
-
 import Product from './Product';
 
-import Cart from './Cart';
+
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Cart2 from './Cart2';
 
@@ -56,6 +54,7 @@ function App() {
 
       <Route exact path="/" ><Product onAdd={onAdd} onRemove={onRemove} cart={cart} data={data}/></Route>
       <Route exact path="/cart" ><Cart2 cart={cart}  onAdds={onAdd} onRemoves={onRemove}/></Route>
+      <Redirect to="/"/>
      </Switch>
      </BrowserRouter>
     </div>

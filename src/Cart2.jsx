@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Navbar from './Navbar';
+import React from 'react';
 import pic from './Images/dummy2.jpeg';
 import AddIcon from '@material-ui/icons/Add';
 import RemoveIcon from '@material-ui/icons/Remove';
